@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0045D36A87ECD18EF31B00F21ECD1444 /* nanoftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DDD15ED82A8D20203D865EC43FAD364 /* nanoftp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		039B40776E5336AD6D0E6D9D397B3BD2 /* xmlregexp.h in Headers */ = {isa = PBXBuildFile; fileRef = 03737D9FDC1EB94147D3B34008C88744 /* xmlregexp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E161B012DF760EFC3B57287C7AF70A1 /* xmlautomata.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EB00CA2E48953775946631206AA905 /* xmlautomata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B6EC8822A45DAB965E85091D642AF1 /* xmlerror.h in Headers */ = {isa = PBXBuildFile; fileRef = D791893AD099AFA7750BAB36AF261E4A /* xmlerror.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11E93A1EA72A57BDAC41A787839498D0 /* xpathInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D0FDD6F46B3DE7E051403CFB63D305 /* xpathInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1291DEFD3236396B06655FFFE03E8FC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		180C12259929E59DFCC3B28DB71F0904 /* schematron.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D188EA8B1729CEB39BD82BD5A641E2 /* schematron.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224603652248C1244F4E545B7DADECC9 /* relaxng.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B73FBA3C1331BE920760F5B4922D3B /* relaxng.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237B94B5E203D1796927B994406F03A5 /* xmlstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF226E1F4B2230AD9F376A3DDC0A3F8 /* xmlstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28CC7B0FB65D84F22F19D6AB72A62817 /* Pods-PlatinumBlue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A8D9D065C348EC0C55DBF4D9F05B03 /* Pods-PlatinumBlue-dummy.m */; };
+		2D00E5529619E9730AEA0570EFDF3135 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D25B189C3B1ACF2A3C389EC452BECF4 /* encoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAE9B1263A8581B4A1041F9A9E79D4F /* xinclude.h in Headers */ = {isa = PBXBuildFile; fileRef = F8518BF57F1CD232BF7CC037689F3AE7 /* xinclude.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44825A56C9DAA2FC6CB21B8C2E60CA54 /* xmlexports.h in Headers */ = {isa = PBXBuildFile; fileRef = 990B7114C3BECAA7BB9A37B1EF502978 /* xmlexports.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5303FC02F62F7AEF25E019D48CF3E2FB /* xmlmemory.h in Headers */ = {isa = PBXBuildFile; fileRef = E68AC3A3F72B9FB63FF122ED3E706573 /* xmlmemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56DEBECFBDF1C50266C5306FA7B3D188 /* JiNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */; };
+		574B76A597FCB1495325EBA752512C85 /* parserInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE8A1EF2ED2BD3AB6092E62807BA4AC /* parserInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578B237ECBF428DF13753659E0DDE5A7 /* xmlunicode.h in Headers */ = {isa = PBXBuildFile; fileRef = 079BA57E2F59E98B2DE96CC80DB0D14E /* xmlunicode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57CD2095FEB53B0E49272E0FC72E2AA8 /* xmlversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F31B5F30EA50FEF437B9EF93281BA45 /* xmlversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5902D97456F46DBC44BDF9BAA7F805EF /* catalog.h in Headers */ = {isa = PBXBuildFile; fileRef = 80D31C7B982F7565127DD5C88544EB48 /* catalog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D587FEC5E688FB42A4A28D73DC63F2D /* xmlsave.h in Headers */ = {isa = PBXBuildFile; fileRef = 616DF624486EE1A9C3A2AF812209BCB1 /* xmlsave.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CCB01180E6C3C03C5E3F8467615E69 /* HTMLparser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9360BE60B86BAF758E0A1FB387A50F1E /* HTMLparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FC23C60E31045CE7E9AE717F24F4D2A /* xpointer.h in Headers */ = {isa = PBXBuildFile; fileRef = DEA356F9F6A72B750513F646CCB88352 /* xpointer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7596309E6A8F31006D97CC9E21126E15 /* xmlmodule.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA40C28B18676A0C7D854A0DE266AB5 /* xmlmodule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76F239D6265A211592E0A9D41392DE22 /* threads.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3E5F1DD06896D732A50F2F7FAE9CFE /* threads.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D602B77F9E642AB6544FCA234B2BBE6 /* Ji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */; };
+		827CFED0C304D4FDBE940B92342E12E9 /* Ji-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835529C373DBDE2A86FA5619FDE687F6 /* dict.h in Headers */ = {isa = PBXBuildFile; fileRef = 5334D5F6174249D312F86615C0B15BA0 /* dict.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF7C0F87033B685FD1055FB2FBB9866 /* Ji-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */; };
+		9078F99433753636A03548D567950568 /* nanohttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 014B7E761E65E2D320E17DC1912CE6B2 /* nanohttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91AA0953BB32D4B14E3A8F73F0B42A5C /* xlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 166AC4687460E8FBC7372C63ACCABE5A /* xlink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		990C4D1EA23ABBEB166E5EF15A94B141 /* list.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C96561DB8669E13674C39E37F1034F9 /* list.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E6011855668F15531BD76A2ABBCE187 /* debugXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 295EA5AD6B94824349E18FEDB10D107D /* debugXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A01EC2A1716BD028B444BF36D998E912 /* xmlIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B781E42D21B678AB1873BAA5B2A175 /* xmlIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A55122137FEB60AACFD9C918140AC31B /* globals.h in Headers */ = {isa = PBXBuildFile; fileRef = B831AD90CECF5DA2347E71B481E8DF44 /* globals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAFFAD4A23BB4331E6AD0A7B80071510 /* tree.h in Headers */ = {isa = PBXBuildFile; fileRef = C74EA216CCF31F0B1118FFCB5492E5C6 /* tree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B103171E814AEA1E0F38516579926C84 /* uri.h in Headers */ = {isa = PBXBuildFile; fileRef = 431EEA90403F3063B6B1C4BE76979E83 /* uri.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B284A3ACBF673247B1162EE9862F26B8 /* xmlschemas.h in Headers */ = {isa = PBXBuildFile; fileRef = 966CC92E888AFA43F0FF415BFFA8CC03 /* xmlschemas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4106709CD46C30ADE8E017AF31BE2F8 /* xmlwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC91B05332B44CF62ADD33A5397BA68 /* xmlwriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B81341533AD43708C24B7BA7771FA79F /* Pods-PlatinumBlue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAE51E70BEEA0D4DF555C7E8034F11F /* Pods-PlatinumBlue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89EEEB847EC725CC604BC2642F0FC88 /* xpath.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FA78EDD9D13B12A112F4CBD1E43DF9 /* xpath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9E14AECCBF6D2CAF467FB7A4F787EF7 /* SAX2.h in Headers */ = {isa = PBXBuildFile; fileRef = 57737C4EE146DABFF275D43F37942ED7 /* SAX2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB7F3AC6CBB7015B8ED6473340FBD7A1 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5F12178DBF0C5DD0008E0EC5FDC9CC /* hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C95B93EDF3F86837F089B3DDDFE02193 /* pattern.h in Headers */ = {isa = PBXBuildFile; fileRef = D25DECF3EA02C5A4541179F978A078C2 /* pattern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD5CDE24E7F94D94C56D2AF09C5AA48B /* c14n.h in Headers */ = {isa = PBXBuildFile; fileRef = 33FBCEA79F34847536396F9D1F3EC34D /* c14n.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0BB295A2FF203876F17B2790D96F75D /* HTMLtree.h in Headers */ = {isa = PBXBuildFile; fileRef = A38AE3B8E142CA64C35F660EEB5D4B21 /* HTMLtree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E4581E61C97E79686B59799D19283B /* valid.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2F53D8546E9AD0DC956ED182C44CCC /* valid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D83FD0E57655809EA7A1BC49AF5F3D8D /* xmlschemastypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 64EC44A09D4AE1358B9B8674B39F28E5 /* xmlschemastypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3850C4A57C621F582D20409B24CBB47 /* schemasInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A2B7201F243FCC98FC90515853F4E5 /* schemasInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8C5F762562F18C03793B174E1167C23 /* xmlreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A8CE03ECF2CB6FC9DCF3AC95988CE1B /* xmlreader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E917BB2160AF8EC4B371D98E96583ADB /* chvalid.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E364163845AD30451076C7238C85A6 /* chvalid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA9B58CE90D02C49A055D3D48E0C7E7 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6C473D01EC0D605424BB0F1A9FA5E9 /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC8D7C7F4B1150EE5A76A899623AE575 /* JiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */; };
+		EE5B93C6C565FBF1268737BFF19DEBD6 /* entities.h in Headers */ = {isa = PBXBuildFile; fileRef = B680DF30107B87DEA4B6D4E29D1F65A7 /* entities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1DAEC5F34DF28A7E8AA9B1FA1DC3C18 /* SAX.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F584CC2613B76636C6A61510FB4CF76 /* SAX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F571C46C5136C4254DA77848B69E8406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90C2E07444F20790D29F4E2D9F6D0E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F1DB440B42642636E376448A196E87;
+			remoteInfo = Ji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014B7E761E65E2D320E17DC1912CE6B2 /* nanohttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nanohttp.h; path = "Source/Ji-libxml/nanohttp.h"; sourceTree = "<group>"; };
+		03737D9FDC1EB94147D3B34008C88744 /* xmlregexp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlregexp.h; path = "Source/Ji-libxml/xmlregexp.h"; sourceTree = "<group>"; };
+		079BA57E2F59E98B2DE96CC80DB0D14E /* xmlunicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlunicode.h; path = "Source/Ji-libxml/xmlunicode.h"; sourceTree = "<group>"; };
+		09B73FBA3C1331BE920760F5B4922D3B /* relaxng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = relaxng.h; path = "Source/Ji-libxml/relaxng.h"; sourceTree = "<group>"; };
+		0E2F53D8546E9AD0DC956ED182C44CCC /* valid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = valid.h; path = "Source/Ji-libxml/valid.h"; sourceTree = "<group>"; };
+		0F584CC2613B76636C6A61510FB4CF76 /* SAX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX.h; path = "Source/Ji-libxml/SAX.h"; sourceTree = "<group>"; };
+		12F9DCBD03680C51657320F8F6178FCE /* Pods-PlatinumBlue-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PlatinumBlue-acknowledgements.plist"; sourceTree = "<group>"; };
+		139A5F4A17247259236D3B80D355DD20 /* Pods-PlatinumBlue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PlatinumBlue.modulemap"; sourceTree = "<group>"; };
+		14D188EA8B1729CEB39BD82BD5A641E2 /* schematron.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schematron.h; path = "Source/Ji-libxml/schematron.h"; sourceTree = "<group>"; };
+		155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiNode.swift; path = Source/JiNode.swift; sourceTree = "<group>"; };
+		15D0FDD6F46B3DE7E051403CFB63D305 /* xpathInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpathInternals.h; path = "Source/Ji-libxml/xpathInternals.h"; sourceTree = "<group>"; };
+		166AC4687460E8FBC7372C63ACCABE5A /* xlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xlink.h; path = "Source/Ji-libxml/xlink.h"; sourceTree = "<group>"; };
+		1A8CE03ECF2CB6FC9DCF3AC95988CE1B /* xmlreader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlreader.h; path = "Source/Ji-libxml/xmlreader.h"; sourceTree = "<group>"; };
+		1C96561DB8669E13674C39E37F1034F9 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = "Source/Ji-libxml/list.h"; sourceTree = "<group>"; };
+		263A00878697DD0A02DD4C5C13C58158 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		295EA5AD6B94824349E18FEDB10D107D /* debugXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = debugXML.h; path = "Source/Ji-libxml/debugXML.h"; sourceTree = "<group>"; };
+		30B781E42D21B678AB1873BAA5B2A175 /* xmlIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlIO.h; path = "Source/Ji-libxml/xmlIO.h"; sourceTree = "<group>"; };
+		31A8D9D065C348EC0C55DBF4D9F05B03 /* Pods-PlatinumBlue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PlatinumBlue-dummy.m"; sourceTree = "<group>"; };
+		3378F943CE6FE8F612EFB438EC0D4699 /* Pods-PlatinumBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlatinumBlue.debug.xcconfig"; sourceTree = "<group>"; };
+		33FBCEA79F34847536396F9D1F3EC34D /* c14n.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = c14n.h; path = "Source/Ji-libxml/c14n.h"; sourceTree = "<group>"; };
+		3DDD15ED82A8D20203D865EC43FAD364 /* nanoftp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nanoftp.h; path = "Source/Ji-libxml/nanoftp.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3EF226E1F4B2230AD9F376A3DDC0A3F8 /* xmlstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlstring.h; path = "Source/Ji-libxml/xmlstring.h"; sourceTree = "<group>"; };
+		431EEA90403F3063B6B1C4BE76979E83 /* uri.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = uri.h; path = "Source/Ji-libxml/uri.h"; sourceTree = "<group>"; };
+		4A6C32CB333FF685DA431E934AA85EF0 /* Pods-PlatinumBlue-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PlatinumBlue-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5334D5F6174249D312F86615C0B15BA0 /* dict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dict.h; path = "Source/Ji-libxml/dict.h"; sourceTree = "<group>"; };
+		54BD606766D7D2798F816C1CBC38ADEF /* Pods_PlatinumBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlatinumBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57737C4EE146DABFF275D43F37942ED7 /* SAX2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAX2.h; path = "Source/Ji-libxml/SAX2.h"; sourceTree = "<group>"; };
+		5D25B189C3B1ACF2A3C389EC452BECF4 /* encoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = encoding.h; path = "Source/Ji-libxml/encoding.h"; sourceTree = "<group>"; };
+		616DF624486EE1A9C3A2AF812209BCB1 /* xmlsave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlsave.h; path = "Source/Ji-libxml/xmlsave.h"; sourceTree = "<group>"; };
+		64EC44A09D4AE1358B9B8674B39F28E5 /* xmlschemastypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlschemastypes.h; path = "Source/Ji-libxml/xmlschemastypes.h"; sourceTree = "<group>"; };
+		6A2C48780EEC0B82AF0B6A31CF8870FA /* Ji.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Ji.modulemap; sourceTree = "<group>"; };
+		6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ji-dummy.m"; sourceTree = "<group>"; };
+		7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ji-umbrella.h"; sourceTree = "<group>"; };
+		7A2004860F05D48FFA154C5D5DE27859 /* Ji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAE51E70BEEA0D4DF555C7E8034F11F /* Pods-PlatinumBlue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PlatinumBlue-umbrella.h"; sourceTree = "<group>"; };
+		7F31B5F30EA50FEF437B9EF93281BA45 /* xmlversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlversion.h; path = "Source/Ji-libxml/xmlversion.h"; sourceTree = "<group>"; };
+		80D31C7B982F7565127DD5C88544EB48 /* catalog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = catalog.h; path = "Source/Ji-libxml/catalog.h"; sourceTree = "<group>"; };
+		8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ji.xcconfig; sourceTree = "<group>"; };
+		851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ji.swift; path = Source/Ji.swift; sourceTree = "<group>"; };
+		85E364163845AD30451076C7238C85A6 /* chvalid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chvalid.h; path = "Source/Ji-libxml/chvalid.h"; sourceTree = "<group>"; };
+		8A1A2B93B4823172875B13036DA2F376 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC91B05332B44CF62ADD33A5397BA68 /* xmlwriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlwriter.h; path = "Source/Ji-libxml/xmlwriter.h"; sourceTree = "<group>"; };
+		9360BE60B86BAF758E0A1FB387A50F1E /* HTMLparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLparser.h; path = "Source/Ji-libxml/HTMLparser.h"; sourceTree = "<group>"; };
+		966CC92E888AFA43F0FF415BFFA8CC03 /* xmlschemas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlschemas.h; path = "Source/Ji-libxml/xmlschemas.h"; sourceTree = "<group>"; };
+		972F83AD25DA1E59424298DA4A093AC0 /* Pods-PlatinumBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PlatinumBlue.release.xcconfig"; sourceTree = "<group>"; };
+		97FA78EDD9D13B12A112F4CBD1E43DF9 /* xpath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpath.h; path = "Source/Ji-libxml/xpath.h"; sourceTree = "<group>"; };
+		98EB00CA2E48953775946631206AA905 /* xmlautomata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlautomata.h; path = "Source/Ji-libxml/xmlautomata.h"; sourceTree = "<group>"; };
+		990B7114C3BECAA7BB9A37B1EF502978 /* xmlexports.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlexports.h; path = "Source/Ji-libxml/xmlexports.h"; sourceTree = "<group>"; };
+		9B6C473D01EC0D605424BB0F1A9FA5E9 /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = "Source/Ji-libxml/parser.h"; sourceTree = "<group>"; };
+		A38AE3B8E142CA64C35F660EEB5D4B21 /* HTMLtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTMLtree.h; path = "Source/Ji-libxml/HTMLtree.h"; sourceTree = "<group>"; };
+		A4A2B7201F243FCC98FC90515853F4E5 /* schemasInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = schemasInternals.h; path = "Source/Ji-libxml/schemasInternals.h"; sourceTree = "<group>"; };
+		AEE8A1EF2ED2BD3AB6092E62807BA4AC /* parserInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parserInternals.h; path = "Source/Ji-libxml/parserInternals.h"; sourceTree = "<group>"; };
+		B4E99A560A45411A634ACB789871A035 /* Pods-PlatinumBlue-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlatinumBlue-resources.sh"; sourceTree = "<group>"; };
+		B680DF30107B87DEA4B6D4E29D1F65A7 /* entities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entities.h; path = "Source/Ji-libxml/entities.h"; sourceTree = "<group>"; };
+		B831AD90CECF5DA2347E71B481E8DF44 /* globals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = globals.h; path = "Source/Ji-libxml/globals.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD3E5F1DD06896D732A50F2F7FAE9CFE /* threads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = threads.h; path = "Source/Ji-libxml/threads.h"; sourceTree = "<group>"; };
+		BF5F12178DBF0C5DD0008E0EC5FDC9CC /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = "Source/Ji-libxml/hash.h"; sourceTree = "<group>"; };
+		C73507CF60EFAF13F093DC3DBAD9EA46 /* Pods-PlatinumBlue-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PlatinumBlue-frameworks.sh"; sourceTree = "<group>"; };
+		C74EA216CCF31F0B1118FFCB5492E5C6 /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = "Source/Ji-libxml/tree.h"; sourceTree = "<group>"; };
+		CAA40C28B18676A0C7D854A0DE266AB5 /* xmlmodule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlmodule.h; path = "Source/Ji-libxml/xmlmodule.h"; sourceTree = "<group>"; };
+		D25DECF3EA02C5A4541179F978A078C2 /* pattern.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pattern.h; path = "Source/Ji-libxml/pattern.h"; sourceTree = "<group>"; };
+		D791893AD099AFA7750BAB36AF261E4A /* xmlerror.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlerror.h; path = "Source/Ji-libxml/xmlerror.h"; sourceTree = "<group>"; };
+		DEA356F9F6A72B750513F646CCB88352 /* xpointer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpointer.h; path = "Source/Ji-libxml/xpointer.h"; sourceTree = "<group>"; };
+		E68AC3A3F72B9FB63FF122ED3E706573 /* xmlmemory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xmlmemory.h; path = "Source/Ji-libxml/xmlmemory.h"; sourceTree = "<group>"; };
+		F34F039218BBB93B1894BAFECB5A7409 /* Ji-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ji-prefix.pch"; sourceTree = "<group>"; };
+		F8518BF57F1CD232BF7CC037689F3AE7 /* xinclude.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xinclude.h; path = "Source/Ji-libxml/xinclude.h"; sourceTree = "<group>"; };
+		FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiHelper.swift; path = Source/JiHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C219642E389B066EB1B6F38F25EC07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1291DEFD3236396B06655FFFE03E8FC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAEA67BC1B15350EC078E33E3436667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F571C46C5136C4254DA77848B69E8406 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A29A5561EAF5E4551699ED48683BF4 /* Pods-PlatinumBlue */ = {
+			isa = PBXGroup;
+			children = (
+				263A00878697DD0A02DD4C5C13C58158 /* Info.plist */,
+				139A5F4A17247259236D3B80D355DD20 /* Pods-PlatinumBlue.modulemap */,
+				4A6C32CB333FF685DA431E934AA85EF0 /* Pods-PlatinumBlue-acknowledgements.markdown */,
+				12F9DCBD03680C51657320F8F6178FCE /* Pods-PlatinumBlue-acknowledgements.plist */,
+				31A8D9D065C348EC0C55DBF4D9F05B03 /* Pods-PlatinumBlue-dummy.m */,
+				C73507CF60EFAF13F093DC3DBAD9EA46 /* Pods-PlatinumBlue-frameworks.sh */,
+				B4E99A560A45411A634ACB789871A035 /* Pods-PlatinumBlue-resources.sh */,
+				7EAE51E70BEEA0D4DF555C7E8034F11F /* Pods-PlatinumBlue-umbrella.h */,
+				3378F943CE6FE8F612EFB438EC0D4699 /* Pods-PlatinumBlue.debug.xcconfig */,
+				972F83AD25DA1E59424298DA4A093AC0 /* Pods-PlatinumBlue.release.xcconfig */,
+			);
+			name = "Pods-PlatinumBlue";
+			path = "Target Support Files/Pods-PlatinumBlue";
+			sourceTree = "<group>";
+		};
+		50DD815E995A0B0379F4C60A9146FE10 /* Ji-libxml */ = {
+			isa = PBXGroup;
+			children = (
+				33FBCEA79F34847536396F9D1F3EC34D /* c14n.h */,
+				80D31C7B982F7565127DD5C88544EB48 /* catalog.h */,
+				85E364163845AD30451076C7238C85A6 /* chvalid.h */,
+				295EA5AD6B94824349E18FEDB10D107D /* debugXML.h */,
+				5334D5F6174249D312F86615C0B15BA0 /* dict.h */,
+				5D25B189C3B1ACF2A3C389EC452BECF4 /* encoding.h */,
+				B680DF30107B87DEA4B6D4E29D1F65A7 /* entities.h */,
+				B831AD90CECF5DA2347E71B481E8DF44 /* globals.h */,
+				BF5F12178DBF0C5DD0008E0EC5FDC9CC /* hash.h */,
+				9360BE60B86BAF758E0A1FB387A50F1E /* HTMLparser.h */,
+				A38AE3B8E142CA64C35F660EEB5D4B21 /* HTMLtree.h */,
+				1C96561DB8669E13674C39E37F1034F9 /* list.h */,
+				3DDD15ED82A8D20203D865EC43FAD364 /* nanoftp.h */,
+				014B7E761E65E2D320E17DC1912CE6B2 /* nanohttp.h */,
+				9B6C473D01EC0D605424BB0F1A9FA5E9 /* parser.h */,
+				AEE8A1EF2ED2BD3AB6092E62807BA4AC /* parserInternals.h */,
+				D25DECF3EA02C5A4541179F978A078C2 /* pattern.h */,
+				09B73FBA3C1331BE920760F5B4922D3B /* relaxng.h */,
+				0F584CC2613B76636C6A61510FB4CF76 /* SAX.h */,
+				57737C4EE146DABFF275D43F37942ED7 /* SAX2.h */,
+				A4A2B7201F243FCC98FC90515853F4E5 /* schemasInternals.h */,
+				14D188EA8B1729CEB39BD82BD5A641E2 /* schematron.h */,
+				BD3E5F1DD06896D732A50F2F7FAE9CFE /* threads.h */,
+				C74EA216CCF31F0B1118FFCB5492E5C6 /* tree.h */,
+				431EEA90403F3063B6B1C4BE76979E83 /* uri.h */,
+				0E2F53D8546E9AD0DC956ED182C44CCC /* valid.h */,
+				F8518BF57F1CD232BF7CC037689F3AE7 /* xinclude.h */,
+				166AC4687460E8FBC7372C63ACCABE5A /* xlink.h */,
+				98EB00CA2E48953775946631206AA905 /* xmlautomata.h */,
+				D791893AD099AFA7750BAB36AF261E4A /* xmlerror.h */,
+				990B7114C3BECAA7BB9A37B1EF502978 /* xmlexports.h */,
+				30B781E42D21B678AB1873BAA5B2A175 /* xmlIO.h */,
+				E68AC3A3F72B9FB63FF122ED3E706573 /* xmlmemory.h */,
+				CAA40C28B18676A0C7D854A0DE266AB5 /* xmlmodule.h */,
+				1A8CE03ECF2CB6FC9DCF3AC95988CE1B /* xmlreader.h */,
+				03737D9FDC1EB94147D3B34008C88744 /* xmlregexp.h */,
+				616DF624486EE1A9C3A2AF812209BCB1 /* xmlsave.h */,
+				966CC92E888AFA43F0FF415BFFA8CC03 /* xmlschemas.h */,
+				64EC44A09D4AE1358B9B8674B39F28E5 /* xmlschemastypes.h */,
+				3EF226E1F4B2230AD9F376A3DDC0A3F8 /* xmlstring.h */,
+				079BA57E2F59E98B2DE96CC80DB0D14E /* xmlunicode.h */,
+				7F31B5F30EA50FEF437B9EF93281BA45 /* xmlversion.h */,
+				8AC91B05332B44CF62ADD33A5397BA68 /* xmlwriter.h */,
+				97FA78EDD9D13B12A112F4CBD1E43DF9 /* xpath.h */,
+				15D0FDD6F46B3DE7E051403CFB63D305 /* xpathInternals.h */,
+				DEA356F9F6A72B750513F646CCB88352 /* xpointer.h */,
+			);
+			name = "Ji-libxml";
+			sourceTree = "<group>";
+		};
+		50FCA6DF46B52264016842429D536A06 /* Ji */ = {
+			isa = PBXGroup;
+			children = (
+				851C25FE25DAA72DB66F633242DE21E7 /* Ji.swift */,
+				FD82F4E5C61BB0A9935964E472A50A51 /* JiHelper.swift */,
+				155E30F0F80FA1FEB4A598682A72B799 /* JiNode.swift */,
+			);
+			name = Ji;
+			sourceTree = "<group>";
+		};
+		61B58FBBEEF1C69F4595AD635F198251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A2004860F05D48FFA154C5D5DE27859 /* Ji.framework */,
+				54BD606766D7D2798F816C1CBC38ADEF /* Pods_PlatinumBlue.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7EEC4DFDB9898E51217179C48DFA6ED7 /* Pods */,
+				61B58FBBEEF1C69F4595AD635F198251 /* Products */,
+				936E75B7865044D308CF9CD6FD1A779F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EEC4DFDB9898E51217179C48DFA6ED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B094E57444C497562FA22BD761A335F4 /* Ji */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		936E75B7865044D308CF9CD6FD1A779F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				00A29A5561EAF5E4551699ED48683BF4 /* Pods-PlatinumBlue */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B094E57444C497562FA22BD761A335F4 /* Ji */ = {
+			isa = PBXGroup;
+			children = (
+				50FCA6DF46B52264016842429D536A06 /* Ji */,
+				50DD815E995A0B0379F4C60A9146FE10 /* Ji-libxml */,
+				FC129F873C8046937630858D131339D1 /* Support Files */,
+			);
+			path = Ji;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FC129F873C8046937630858D131339D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A2B93B4823172875B13036DA2F376 /* Info.plist */,
+				6A2C48780EEC0B82AF0B6A31CF8870FA /* Ji.modulemap */,
+				8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */,
+				6E035FF1C78EF0C5F26B54BE683E122A /* Ji-dummy.m */,
+				F34F039218BBB93B1894BAFECB5A7409 /* Ji-prefix.pch */,
+				7189F6F7E01F93D2B6857CD0D0861953 /* Ji-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ji";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3376DD68677EF0FDF0DA5E9217916815 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5CDE24E7F94D94C56D2AF09C5AA48B /* c14n.h in Headers */,
+				5902D97456F46DBC44BDF9BAA7F805EF /* catalog.h in Headers */,
+				E917BB2160AF8EC4B371D98E96583ADB /* chvalid.h in Headers */,
+				9E6011855668F15531BD76A2ABBCE187 /* debugXML.h in Headers */,
+				835529C373DBDE2A86FA5619FDE687F6 /* dict.h in Headers */,
+				2D00E5529619E9730AEA0570EFDF3135 /* encoding.h in Headers */,
+				EE5B93C6C565FBF1268737BFF19DEBD6 /* entities.h in Headers */,
+				A55122137FEB60AACFD9C918140AC31B /* globals.h in Headers */,
+				BB7F3AC6CBB7015B8ED6473340FBD7A1 /* hash.h in Headers */,
+				60CCB01180E6C3C03C5E3F8467615E69 /* HTMLparser.h in Headers */,
+				D0BB295A2FF203876F17B2790D96F75D /* HTMLtree.h in Headers */,
+				827CFED0C304D4FDBE940B92342E12E9 /* Ji-umbrella.h in Headers */,
+				990C4D1EA23ABBEB166E5EF15A94B141 /* list.h in Headers */,
+				0045D36A87ECD18EF31B00F21ECD1444 /* nanoftp.h in Headers */,
+				9078F99433753636A03548D567950568 /* nanohttp.h in Headers */,
+				EAA9B58CE90D02C49A055D3D48E0C7E7 /* parser.h in Headers */,
+				574B76A597FCB1495325EBA752512C85 /* parserInternals.h in Headers */,
+				C95B93EDF3F86837F089B3DDDFE02193 /* pattern.h in Headers */,
+				224603652248C1244F4E545B7DADECC9 /* relaxng.h in Headers */,
+				F1DAEC5F34DF28A7E8AA9B1FA1DC3C18 /* SAX.h in Headers */,
+				B9E14AECCBF6D2CAF467FB7A4F787EF7 /* SAX2.h in Headers */,
+				E3850C4A57C621F582D20409B24CBB47 /* schemasInternals.h in Headers */,
+				180C12259929E59DFCC3B28DB71F0904 /* schematron.h in Headers */,
+				76F239D6265A211592E0A9D41392DE22 /* threads.h in Headers */,
+				AAFFAD4A23BB4331E6AD0A7B80071510 /* tree.h in Headers */,
+				B103171E814AEA1E0F38516579926C84 /* uri.h in Headers */,
+				D6E4581E61C97E79686B59799D19283B /* valid.h in Headers */,
+				3AAE9B1263A8581B4A1041F9A9E79D4F /* xinclude.h in Headers */,
+				91AA0953BB32D4B14E3A8F73F0B42A5C /* xlink.h in Headers */,
+				0E161B012DF760EFC3B57287C7AF70A1 /* xmlautomata.h in Headers */,
+				10B6EC8822A45DAB965E85091D642AF1 /* xmlerror.h in Headers */,
+				44825A56C9DAA2FC6CB21B8C2E60CA54 /* xmlexports.h in Headers */,
+				A01EC2A1716BD028B444BF36D998E912 /* xmlIO.h in Headers */,
+				5303FC02F62F7AEF25E019D48CF3E2FB /* xmlmemory.h in Headers */,
+				7596309E6A8F31006D97CC9E21126E15 /* xmlmodule.h in Headers */,
+				E8C5F762562F18C03793B174E1167C23 /* xmlreader.h in Headers */,
+				039B40776E5336AD6D0E6D9D397B3BD2 /* xmlregexp.h in Headers */,
+				5D587FEC5E688FB42A4A28D73DC63F2D /* xmlsave.h in Headers */,
+				B284A3ACBF673247B1162EE9862F26B8 /* xmlschemas.h in Headers */,
+				D83FD0E57655809EA7A1BC49AF5F3D8D /* xmlschemastypes.h in Headers */,
+				237B94B5E203D1796927B994406F03A5 /* xmlstring.h in Headers */,
+				578B237ECBF428DF13753659E0DDE5A7 /* xmlunicode.h in Headers */,
+				57CD2095FEB53B0E49272E0FC72E2AA8 /* xmlversion.h in Headers */,
+				B4106709CD46C30ADE8E017AF31BE2F8 /* xmlwriter.h in Headers */,
+				B89EEEB847EC725CC604BC2642F0FC88 /* xpath.h in Headers */,
+				11E93A1EA72A57BDAC41A787839498D0 /* xpathInternals.h in Headers */,
+				6FC23C60E31045CE7E9AE717F24F4D2A /* xpointer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4DE9052CAC7DA74EA3F64ADE079368 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81341533AD43708C24B7BA7771FA79F /* Pods-PlatinumBlue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D89C8FA2E24B9AD05D08D16CF998171 /* Pods-PlatinumBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C177E1686D2BEA52CB4CE60B2C5DE5 /* Build configuration list for PBXNativeTarget "Pods-PlatinumBlue" */;
+			buildPhases = (
+				B49FCC71F304F5D4FD54E4B49EE57379 /* Sources */,
+				FDAEA67BC1B15350EC078E33E3436667 /* Frameworks */,
+				4A4DE9052CAC7DA74EA3F64ADE079368 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F8BCADC8A20F20621F6F1CA81222D6E /* PBXTargetDependency */,
+			);
+			name = "Pods-PlatinumBlue";
+			productName = "Pods-PlatinumBlue";
+			productReference = 54BD606766D7D2798F816C1CBC38ADEF /* Pods_PlatinumBlue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4F1DB440B42642636E376448A196E87 /* Ji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167628074131DA96D4542E0F385CFDB2 /* Build configuration list for PBXNativeTarget "Ji" */;
+			buildPhases = (
+				51494E45FA68AB11359AC5AAACE1013F /* Sources */,
+				9C219642E389B066EB1B6F38F25EC07D /* Frameworks */,
+				3376DD68677EF0FDF0DA5E9217916815 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ji;
+			productName = Ji;
+			productReference = 7A2004860F05D48FFA154C5D5DE27859 /* Ji.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 61B58FBBEEF1C69F4595AD635F198251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F1DB440B42642636E376448A196E87 /* Ji */,
+				7D89C8FA2E24B9AD05D08D16CF998171 /* Pods-PlatinumBlue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51494E45FA68AB11359AC5AAACE1013F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7C0F87033B685FD1055FB2FBB9866 /* Ji-dummy.m in Sources */,
+				7D602B77F9E642AB6544FCA234B2BBE6 /* Ji.swift in Sources */,
+				EC8D7C7F4B1150EE5A76A899623AE575 /* JiHelper.swift in Sources */,
+				56DEBECFBDF1C50266C5306FA7B3D188 /* JiNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49FCC71F304F5D4FD54E4B49EE57379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CC7B0FB65D84F22F19D6AB72A62817 /* Pods-PlatinumBlue-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F8BCADC8A20F20621F6F1CA81222D6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ji;
+			target = C4F1DB440B42642636E376448A196E87 /* Ji */;
+			targetProxy = 90C2E07444F20790D29F4E2D9F6D0E3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09B0B1F110BBD42ED0E99FD06FFFD5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3378F943CE6FE8F612EFB438EC0D4699 /* Pods-PlatinumBlue.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PlatinumBlue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlatinumBlue/Pods-PlatinumBlue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PlatinumBlue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2295454E3561F7F506A90798B3C59B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ji/Ji-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ji/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ji/Ji.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ji;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46217459A591FC14E592D613773A5EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8330212B33FC1EB3515D7AE5CC17B39F /* Ji.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ji/Ji-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ji/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ji/Ji.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Ji;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7FEB1441F58EE8539BA728D4C0B07D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972F83AD25DA1E59424298DA4A093AC0 /* Pods-PlatinumBlue.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PlatinumBlue/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PlatinumBlue/Pods-PlatinumBlue.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_PlatinumBlue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167628074131DA96D4542E0F385CFDB2 /* Build configuration list for PBXNativeTarget "Ji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46217459A591FC14E592D613773A5EE1 /* Debug */,
+				2295454E3561F7F506A90798B3C59B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C177E1686D2BEA52CB4CE60B2C5DE5 /* Build configuration list for PBXNativeTarget "Pods-PlatinumBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B0B1F110BBD42ED0E99FD06FFFD5CE /* Debug */,
+				A7FEB1441F58EE8539BA728D4C0B07D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59CB61344951FA7F3975BB30 /* Pods_PlatinumBlue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2B9A59DC85F99CC4D46473 /* Pods_PlatinumBlue.framework */; };
+		ABAD53B01C195FA2009721D8 /* FeedsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD53AF1C195FA2009721D8 /* FeedsTableViewController.swift */; };
+		ABAD53B21C1967F9009721D8 /* FeedContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAD53B11C1967F9009721D8 /* FeedContentViewController.swift */; };
+		ABCBDBFA1C17031500242D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBDBF91C17031500242D53 /* AppDelegate.swift */; };
+		ABCBDBFC1C17031500242D53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBDBFB1C17031500242D53 /* ViewController.swift */; };
+		ABCBDBFF1C17031500242D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCBDBFD1C17031500242D53 /* Main.storyboard */; };
+		ABCBDC011C17031500242D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCBDC001C17031500242D53 /* Assets.xcassets */; };
+		ABCBDC041C17031500242D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCBDC021C17031500242D53 /* LaunchScreen.storyboard */; };
+		ABCBDC0F1C17031500242D53 /* PlatinumBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBDC0E1C17031500242D53 /* PlatinumBlueTests.swift */; };
+		ABCBDC1A1C17031500242D53 /* PlatinumBlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBDC191C17031500242D53 /* PlatinumBlueUITests.swift */; };
+		ABCE63BF1C187AD8000C77EF /* FeedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCE63BC1C187AD8000C77EF /* FeedInfo.swift */; };
+		ABCE63C01C187AD8000C77EF /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCE63BD1C187AD8000C77EF /* FeedItem.swift */; };
+		ABCE63C11C187AD8000C77EF /* PlatinumBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCE63BE1C187AD8000C77EF /* PlatinumBlue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABCBDC0B1C17031500242D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCBDBEE1C17031500242D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCBDBF51C17031500242D53;
+			remoteInfo = PlatinumBlue;
+		};
+		ABCBDC161C17031500242D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCBDBEE1C17031500242D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCBDBF51C17031500242D53;
+			remoteInfo = PlatinumBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C2B9A59DC85F99CC4D46473 /* Pods_PlatinumBlue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlatinumBlue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EDBC1C7A6BF9652C8AE483 /* Pods-PlatinumBlue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatinumBlue.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlatinumBlue/Pods-PlatinumBlue.release.xcconfig"; sourceTree = "<group>"; };
+		A6EB62B4380FA1DBE4F8B1BD /* Pods-PlatinumBlue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatinumBlue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlatinumBlue/Pods-PlatinumBlue.debug.xcconfig"; sourceTree = "<group>"; };
+		ABAD53AF1C195FA2009721D8 /* FeedsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsTableViewController.swift; sourceTree = "<group>"; };
+		ABAD53B11C1967F9009721D8 /* FeedContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedContentViewController.swift; sourceTree = "<group>"; };
+		ABCBDBF61C17031500242D53 /* PlatinumBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatinumBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCBDBF91C17031500242D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABCBDBFB1C17031500242D53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABCBDBFE1C17031500242D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABCBDC001C17031500242D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABCBDC031C17031500242D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABCBDC051C17031500242D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCBDC0A1C17031500242D53 /* PlatinumBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatinumBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCBDC0E1C17031500242D53 /* PlatinumBlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatinumBlueTests.swift; sourceTree = "<group>"; };
+		ABCBDC101C17031500242D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCBDC151C17031500242D53 /* PlatinumBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatinumBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCBDC191C17031500242D53 /* PlatinumBlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatinumBlueUITests.swift; sourceTree = "<group>"; };
+		ABCBDC1B1C17031500242D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABCBDC631C17034C00242D53 /* PlatinumBlue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlatinumBlue-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABCE63BC1C187AD8000C77EF /* FeedInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedInfo.swift; sourceTree = "<group>"; };
+		ABCE63BD1C187AD8000C77EF /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		ABCE63BE1C187AD8000C77EF /* PlatinumBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatinumBlue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCBDBF31C17031500242D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59CB61344951FA7F3975BB30 /* Pods_PlatinumBlue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCBDC071C17031500242D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCBDC121C17031500242D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABAD53AE1C195F65009721D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBDBF91C17031500242D53 /* AppDelegate.swift */,
+				ABCBDC001C17031500242D53 /* Assets.xcassets */,
+				ABCBDC021C17031500242D53 /* LaunchScreen.storyboard */,
+				ABCBDC051C17031500242D53 /* Info.plist */,
+				ABCBDC631C17034C00242D53 /* PlatinumBlue-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABCBDBED1C17031500242D53 = {
+			isa = PBXGroup;
+			children = (
+				ABCBDBF81C17031500242D53 /* PlatinumBlue */,
+				ABCBDC0D1C17031500242D53 /* PlatinumBlueTests */,
+				ABCBDC181C17031500242D53 /* PlatinumBlueUITests */,
+				ABCBDBF71C17031500242D53 /* Products */,
+				AFAFA9C62FEA03881ABE440B /* Pods */,
+				C2C82466705237E097735D0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCBDBF71C17031500242D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBDBF61C17031500242D53 /* PlatinumBlue.app */,
+				ABCBDC0A1C17031500242D53 /* PlatinumBlueTests.xctest */,
+				ABCBDC151C17031500242D53 /* PlatinumBlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCBDBF81C17031500242D53 /* PlatinumBlue */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBDBFD1C17031500242D53 /* Main.storyboard */,
+				ABAD53B11C1967F9009721D8 /* FeedContentViewController.swift */,
+				ABCBDBFB1C17031500242D53 /* ViewController.swift */,
+				ABAD53AF1C195FA2009721D8 /* FeedsTableViewController.swift */,
+				ABCE63BB1C187AD8000C77EF /* Classes */,
+				ABAD53AE1C195F65009721D8 /* Supporting Files */,
+			);
+			path = PlatinumBlue;
+			sourceTree = "<group>";
+		};
+		ABCBDC0D1C17031500242D53 /* PlatinumBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBDC0E1C17031500242D53 /* PlatinumBlueTests.swift */,
+				ABCBDC101C17031500242D53 /* Info.plist */,
+			);
+			path = PlatinumBlueTests;
+			sourceTree = "<group>";
+		};
+		ABCBDC181C17031500242D53 /* PlatinumBlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBDC191C17031500242D53 /* PlatinumBlueUITests.swift */,
+				ABCBDC1B1C17031500242D53 /* Info.plist */,
+			);
+			path = PlatinumBlueUITests;
+			sourceTree = "<group>";
+		};
+		ABCE63BB1C187AD8000C77EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE63BC1C187AD8000C77EF /* FeedInfo.swift */,
+				ABCE63BD1C187AD8000C77EF /* FeedItem.swift */,
+				ABCE63BE1C187AD8000C77EF /* PlatinumBlue.swift */,
+			);
+			name = Classes;
+			path = Class;
+			sourceTree = "<group>";
+		};
+		AFAFA9C62FEA03881ABE440B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB62B4380FA1DBE4F8B1BD /* Pods-PlatinumBlue.debug.xcconfig */,
+				95EDBC1C7A6BF9652C8AE483 /* Pods-PlatinumBlue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2C82466705237E097735D0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C2B9A59DC85F99CC4D46473 /* Pods_PlatinumBlue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCBDBF51C17031500242D53 /* PlatinumBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCBDC1E1C17031500242D53 /* Build configuration list for PBXNativeTarget "PlatinumBlue" */;
+			buildPhases = (
+				4D0A6D695621F04DBC0706B9 /* Check Pods Manifest.lock */,
+				ABCBDBF21C17031500242D53 /* Sources */,
+				ABCBDBF31C17031500242D53 /* Frameworks */,
+				ABCBDBF41C17031500242D53 /* Resources */,
+				441D76500B6919B290B9CA48 /* Embed Pods Frameworks */,
+				A997A1F868F6BD23F3DCC725 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatinumBlue;
+			productName = PlatinumBlue;
+			productReference = ABCBDBF61C17031500242D53 /* PlatinumBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABCBDC091C17031500242D53 /* PlatinumBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCBDC211C17031500242D53 /* Build configuration list for PBXNativeTarget "PlatinumBlueTests" */;
+			buildPhases = (
+				ABCBDC061C17031500242D53 /* Sources */,
+				ABCBDC071C17031500242D53 /* Frameworks */,
+				ABCBDC081C17031500242D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCBDC0C1C17031500242D53 /* PBXTargetDependency */,
+			);
+			name = PlatinumBlueTests;
+			productName = PlatinumBlueTests;
+			productReference = ABCBDC0A1C17031500242D53 /* PlatinumBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABCBDC141C17031500242D53 /* PlatinumBlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCBDC241C17031500242D53 /* Build configuration list for PBXNativeTarget "PlatinumBlueUITests" */;
+			buildPhases = (
+				ABCBDC111C17031500242D53 /* Sources */,
+				ABCBDC121C17031500242D53 /* Frameworks */,
+				ABCBDC131C17031500242D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCBDC171C17031500242D53 /* PBXTargetDependency */,
+			);
+			name = PlatinumBlueUITests;
+			productName = PlatinumBlueUITests;
+			productReference = ABCBDC151C17031500242D53 /* PlatinumBlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCBDBEE1C17031500242D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "林涛";
+				TargetAttributes = {
+					ABCBDBF51C17031500242D53 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					ABCBDC091C17031500242D53 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ABCBDBF51C17031500242D53;
+					};
+					ABCBDC141C17031500242D53 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = ABCBDBF51C17031500242D53;
+					};
+				};
+			};
+			buildConfigurationList = ABCBDBF11C17031500242D53 /* Build configuration list for PBXProject "PlatinumBlue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABCBDBED1C17031500242D53;
+			productRefGroup = ABCBDBF71C17031500242D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCBDBF51C17031500242D53 /* PlatinumBlue */,
+				ABCBDC091C17031500242D53 /* PlatinumBlueTests */,
+				ABCBDC141C17031500242D53 /* PlatinumBlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABCBDBF41C17031500242D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCBDC041C17031500242D53 /* LaunchScreen.storyboard in Resources */,
+				ABCBDC011C17031500242D53 /* Assets.xcassets in Resources */,
+				ABCBDBFF1C17031500242D53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCBDC081C17031500242D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCBDC131C17031500242D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		441D76500B6919B290B9CA48 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlatinumBlue/Pods-PlatinumBlue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D0A6D695621F04DBC0706B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A997A1F868F6BD23F3DCC725 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlatinumBlue/Pods-PlatinumBlue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCBDBF21C17031500242D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCBDBFC1C17031500242D53 /* ViewController.swift in Sources */,
+				ABCBDBFA1C17031500242D53 /* AppDelegate.swift in Sources */,
+				ABAD53B21C1967F9009721D8 /* FeedContentViewController.swift in Sources */,
+				ABCE63C01C187AD8000C77EF /* FeedItem.swift in Sources */,
+				ABCE63BF1C187AD8000C77EF /* FeedInfo.swift in Sources */,
+				ABAD53B01C195FA2009721D8 /* FeedsTableViewController.swift in Sources */,
+				ABCE63C11C187AD8000C77EF /* PlatinumBlue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCBDC061C17031500242D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCBDC0F1C17031500242D53 /* PlatinumBlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCBDC111C17031500242D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCBDC1A1C17031500242D53 /* PlatinumBlueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABCBDC0C1C17031500242D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCBDBF51C17031500242D53 /* PlatinumBlue */;
+			targetProxy = ABCBDC0B1C17031500242D53 /* PBXContainerItemProxy */;
+		};
+		ABCBDC171C17031500242D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCBDBF51C17031500242D53 /* PlatinumBlue */;
+			targetProxy = ABCBDC161C17031500242D53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABCBDBFD1C17031500242D53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCBDBFE1C17031500242D53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABCBDC021C17031500242D53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABCBDC031C17031500242D53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABCBDC1C1C17031500242D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABCBDC1D1C17031500242D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABCBDC1F1C17031500242D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6EB62B4380FA1DBE4F8B1BD /* Pods-PlatinumBlue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PlatinumBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMG.PlatinumBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlatinumBlue/PlatinumBlue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABCBDC201C17031500242D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EDBC1C7A6BF9652C8AE483 /* Pods-PlatinumBlue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PlatinumBlue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMG.PlatinumBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlatinumBlue/PlatinumBlue-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABCBDC221C17031500242D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlatinumBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMG.PlatinumBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatinumBlue.app/PlatinumBlue";
+			};
+			name = Debug;
+		};
+		ABCBDC231C17031500242D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlatinumBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMG.PlatinumBlueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatinumBlue.app/PlatinumBlue";
+			};
+			name = Release;
+		};
+		ABCBDC251C17031500242D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlatinumBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMG.PlatinumBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlatinumBlue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ABCBDC261C17031500242D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlatinumBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMG.PlatinumBlueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlatinumBlue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCBDBF11C17031500242D53 /* Build configuration list for PBXProject "PlatinumBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCBDC1C1C17031500242D53 /* Debug */,
+				ABCBDC1D1C17031500242D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCBDC1E1C17031500242D53 /* Build configuration list for PBXNativeTarget "PlatinumBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCBDC1F1C17031500242D53 /* Debug */,
+				ABCBDC201C17031500242D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCBDC211C17031500242D53 /* Build configuration list for PBXNativeTarget "PlatinumBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCBDC221C17031500242D53 /* Debug */,
+				ABCBDC231C17031500242D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCBDC241C17031500242D53 /* Build configuration list for PBXNativeTarget "PlatinumBlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCBDC251C17031500242D53 /* Debug */,
+				ABCBDC261C17031500242D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABCBDBEE1C17031500242D53 /* Project object */;
+}
