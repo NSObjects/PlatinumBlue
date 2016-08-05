@@ -54,8 +54,11 @@ class ViewController: UIViewController,PlatinumBlueDelegate {
     func platinumBlue(platinumBlue:PlatinumBlue,parsedFeedInfo:FeedInfo?,error:NSError?) {
         //self.activityIndicatorView.stopAnimating()
         if error == nil {
-            self.feeds.addObject(parsedFeedInfo!);
-            self.tableView.reloadData()
+            if let feed = parsedFeedInfo {
+                self.feeds.addObject(feed);
+                self.tableView.reloadData()
+            }
+            
         }
     }
     
