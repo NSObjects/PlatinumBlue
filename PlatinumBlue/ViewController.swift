@@ -31,7 +31,9 @@ class ViewController: UIViewController,PlatinumBlueDelegate {
                    "http://swifter.tips/feed.xml",
                    "http://wufawei.com/feed"]
         
-        for var url in rss {
+    
+        
+        for url in rss {
             let blue = PlatinumBlue(urlStr: url)
             blue.parse()
             blue.delegate = self
