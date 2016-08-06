@@ -9,7 +9,7 @@ use_frameworks!
     pod 'Alamofire', '~> 3.3.1'
     pod 'SwiftyJSON', '~> 2.3.2'
     pod 'Kingfisher', '~> 2.2.0'
-    pod 'XLPagerTabStrip', :git =>'https://github.com/NSObjects/XLPagerTabStrip.git'
+    # pod 'XLPagerTabStrip', :git =>'https://github.com/NSObjects/XLPagerTabStrip.git'
     pod 'SDCycleScrollView','~> 1.64'
     pod 'R.swift', '~> 2.1.0'
     pod 'SVProgressHUD'
@@ -18,7 +18,7 @@ use_frameworks!
     pod 'DZNEmptyDataSet'
     pod 'MXSegmentedPager'
     pod 'RongCloudIMKit', '~> 2.6.2'
-    pod 'HJCornerRadius', :git => "https://github.com/panghaijiao/HJCornerRadius.git"
+    #pod 'HJCornerRadius', :git => "https://github.com/panghaijiao/HJCornerRadius.git"
     pod 'JTSImageViewController', '~> 1.4'
     
     pod 'SnapKit'
