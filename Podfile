@@ -8,6 +8,8 @@ use_frameworks!
 	pod 'Ji', '~> 1.2.0'
     pod 'Alamofire', '~> 3.3.1'
     
+    pod 'PayPal-iOS-SDK'
+
 end
 
 target 'PlatinumBlueTests' do
