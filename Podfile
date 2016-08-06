@@ -11,7 +11,7 @@ use_frameworks!
     pod 'Kingfisher', '~> 2.2.0'
     pod 'XLPagerTabStrip', :git =>'https://github.com/NSObjects/XLPagerTabStrip.git'
     pod 'SDCycleScrollView','~> 1.64'
-    pod 'R.swift', '~> 2.1.0'
+#    pod 'R.swift', '~> 2.1.0'
     pod 'SVProgressHUD'
     pod 'MJRefresh'
     pod 'RealmSwift', '~> 1.0.0'
