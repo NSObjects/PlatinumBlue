@@ -14,10 +14,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-PlatinumBlueTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PlatinumBlueUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7D89C8FA2E24B9AD05D08D16CF998171</key>
+		<key>5A4F35FB29A8F771113AB810D7296DB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC38149DB4E2DB8FB8EC7C1E4BF3E5D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0675DA9D9BF176D2D0834E934244985</key>
 		<dict>
 			<key>primary</key>
 			<true/>
