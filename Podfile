@@ -6,6 +6,7 @@
 target 'PlatinumBlue' do
 use_frameworks!
 	pod 'Ji', '~> 1.2.0'
+     pod 'MXSegmentedPager'
 end
 
 target 'PlatinumBlueTests' do
